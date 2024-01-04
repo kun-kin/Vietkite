@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietkite</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="canonical" href="https://wowjs.uk/">
+
+</head>
+
+<body id="">
+    <div class="wrapper">
+        <main class="main">
+            <div class="checkout-wraper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="mb-4">Bạn có mã ưu đãi? <a href="#" class="showcoupon">Ấn vào đây để nhập mã</a></p>
+                        </div>
+                        <div class="col-lg-12">
+                            <form class="checkout">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <div class="customer_details">
+                                            <div class="clear">
+                                                <div class="info-box">
+                                                    <h3>Thông tin thanh toán</h3>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="">Tên <span class="required">*</span></label>
+                                                                <input type="text" class="form-control" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="">Họ <span class="required">*</span></label>
+                                                                <input type="text" class="form-control" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="">Tên công ty(tùy chọn)</label>
+                                                                <input type="text" class="form-control" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="">Quốc gia/ Khu vực <span class="required">*</span></label>
+                                                                <select name="" id="">
+                                                                    <option value="">Việt Nam</option>
+                                                                    <option value="">Anh(UK)</option>
+                                                                    <option value="">Hàn Quốc</option>
+                                                                    <option value="">Mĩ</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="">Địa chỉ <span class="required">*</span></label>
+                                                                <input type="text" class="form-control" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="">&nbsp;</label>
+                                                                <input type="text" class="form-control" placeholder="Apartment, suite, unit, etc. (optional)" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="">Mã bưu điện(tùy chọn)</label>
+                                                                <input type="text" class="form-control" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="">Tỉnh / Thành phố <span class="required">*</span></label>
+                                                                <input type="text" class="form-control" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="">Số điện thoại <span class="required">*</span></label>
+                                                                <input type="tel" class="form-control" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="">Email <span class="required">*</span></label>
+                                                                <input type="email" class="form-control" value="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clear">
+                                                <div class="info-box">
+                                                    <h3>Thông tin bổ sung</h3>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="">Ghi chú đơn hàng(tùy chọn)</label>
+                                                                <textarea name="" class="form-control" id="" placeholder="Ghi chú về đơn hàng, ví dụ: thời gian hay chỉ dẫn địa điểm giao hàng chi tiết hơn." rows="2" cols="5"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="checkout-sidebar">
+                                            <div class="checkout-sidebar-inner">
+                                                <h3 class="checkout-review-heading">Đơn hàng của bạn</h3>
+                                                <div class="checkout-review-order">
+                                                    <table class="cart-table checkout-review-order-table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="product-name">Sản phẩm</th>
+                                                                <th class="product-total">Tạm tính</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="cart_item">
+                                                                <td class="product-name">
+                                                                    Xe dọn phòng khách sạn SFC-06 &nbsp;<strong class="product-quantity">×&nbsp;1</strong>
+                                                                </td>
+                                                                <td class="product-total">
+                                                                    <span class="price-amount amount">
+                                                                        <bdi>8.140.000<span class="price-currencySymbol">₫</span></bdi>
+                                                                    </span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="cart_item">
+                                                                <td class="product-name">
+                                                                    Thùng rác nắp lật GPX-110EA &nbsp;<strong class="product-quantity">×&nbsp;2</strong>
+                                                                </td>
+                                                                <td class="product-total">
+                                                                    <span class="price-amount amount">
+                                                                        <bdi>6.336.000<span class="price-currencySymbol">₫</span></bdi>
+                                                                    </span>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <tfoot>
+                                                            <tr class="cart-subtotal">
+                                                                <th>Tạm tính</th>
+                                                                <td>
+                                                                    <span class="price-amount amount">
+                                                                        <bdi>14.476.000<span class="price-currencySymbol">₫</span></bdi>
+                                                                    </span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="order-total">
+                                                                <th>Tổng</th>
+                                                                <td>
+                                                                    <strong>
+                                                                        <span class="price-amount amount">
+                                                                            <bdi>14.476.000<span class="price-currencySymbol">₫</span></bdi>
+                                                                        </span>
+                                                                    </strong>
+                                                                </td>
+                                                            </tr>
+                                                        </tfoot>
+                                                    </table>
+                                                    <div class="checkout-payment">
+                                                        <div class="payment_method">
+                                                            <div class="payment_method-item">
+                                                                <input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method" value="bacs" checked="checked" data-order_button_text="">
+                                                                <label for="payment_method_bacs">Chuyển khoản ngân hàng</label>
+                                                                <div class="payment_box payment_method_bacs">
+                                                                    <p>Khi đơn hàng được đặt thành công, nhân viên của chúng tôi sẽ liên hệ và gửi STK cho bạn để thanh toán thành công. Xin cảm ơn!</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="payment_method-item">
+                                                                <input id="payment_method_cod" type="radio" class="input-radio" name="payment_method" value="cod" checked="checked" data-order_button_text="">
+                                                                <label for="payment_method_cod">Trả tiền mặt khi nhận hàng</label>
+                                                                <div class="payment_box payment_method_cod">
+                                                                    <p>Áp dụng tại nội thành Hà Nội &amp; Hồ Chí Minh. Trường hợp ở các địa chỉ khác vui lòng đặt mua trên TIKI, SHOPEE hoặc LAZADA (liên hệ để được hỗ trợ). Xin cảm ơn!</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="place_order">
+                                                            <button type="submit" class="button alt" name="" id="place_order" value="Đặt hàng" data-value="Đặt hàng">Đặt hàng</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="privacy-policy-text">
+                                                    <p>Thông tin cá nhân của bạn sẽ được sử dụng để xử lý đơn hàng, tăng trải nghiệm sử dụng website, và cho các mục đích cụ thể khác đã được mô tả trong <a href="" class="woocommerce-privacy-policy-link" target="_blank">chính sách riêng tư</a>.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 hidden-xs mb-5">
+                        <img src="./assets/images/line-bot.png" class="img-responsive pic-line" alt="line">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-2 wow fadeInLeft">
+                        <h3 class="ft-title">Liên hệ</h3>
+                        <p>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+0914278879">0914278879</a>
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-envelope-open"></i>
+                            <a href="mailto:info@vietkite.com.vn">info@vietkite.com.vn</a>
+                        </p>
+                        <div class="">
+                            <img src="./assets/images/ft-line.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="pull-left">
+                                <img src="./assets/images/i-hotline.png" alt="">
+                            </div>
+                            <div class="pull-left ft-mg-hl">
+                                <div class="hl-num">
+                                    <a style="color:#ff002d" href="tel:0914278879">0914278879</a>
+                                </div>
+                                <div class="hl-hour">Từ 8:00 - 22:00</div>
+                                <div class="hl-hour" style="width:250px;line-height:20px;">
+                                    (Thứ Hai - Thứ Bảy hàng tuần,<br> Chủ Nhật liên hệ <br>Hotline 0914278879)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8 col-sm-12 mb-2 wow fadeInLeft">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-2 wow fadeInLeft">
+                                <h3 class="ft-title">Thông tin</h3>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                        <div class="menu-footer-container">
+                                            <ul class="list-info">
+                                                <li class="menu-item">
+                                                    <a href="">Tin tức du lịch</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="">Kinh nghiệm DL</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="">Giới thiệu về Vietkite</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                                        <div class="menu-footer-container">
+                                            <ul class="list-info">
+                                                <li class="menu-item">
+                                                    <a href="">Tuyển dụng</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="">Tâm sự</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <img src="./assets/images/ft-line.png" alt="">
+                                </div>
+                                <div class="menu-footer-container">
+                                    <ul class="list-info">
+                                        <li class="menu-item">
+                                            <a href="">Tổng hợp cảnh đẹp</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="">Du lịch visa uy tín</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="">Hướng dẫn xin visa</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-2 wow fadeInLeft">
+                                <h3 class="ft-title">NEWSLETTER</h3>
+                                <div class="newsletter position-relative mb-2">
+                                    <form action="">
+                                        <input type="text" class="form-control" placeholder="Email của bạn">
+                                        <div class="btn-f">
+                                            <button type="submit" class="bg-btn" style="border:none;">
+                                                <i class="fa fa-envelope"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <h3 class="ft-title">Tìm kiếm thông tin</h3>
+                                <div class="info-search position-relative mb-2">
+                                    <form action="">
+                                        <input type="text" class="form-control" placeholder="Tour du lịch, điểm đến...">
+                                        <div class="btn-f">
+                                            <button class="bg-btn" type="submit" style="border:none;">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <h3 class="ft-title">Chấp nhận thanh toán</h3>
+                                <div>
+                                    <img src="./assets/images/payment.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-12 col-sm-12 mb-2 wow fadeInLeft">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-3 col-sm-4">
+                                <h3 class="ft-title">Mạng xã hội</h3>
+                                <div class="mb-4">
+                                    <ul class="social-network social-circle">
+                                        <li class="">
+                                            <a href="" class="facebook">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="" class="instagram">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="" class="youtube">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-6 col-sm-4">
+                                <h3 class="ft-title">Chứng nhận</h3>
+                                <div class="mb-4">
+                                    <a href="">
+                                        <img src="./assets/images/bct.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="pos">
+                            <p class="text-center">Vietkite ® 2023. Code by
+                                <a target="_blank" href="">Netsa.vn</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
+
+    <script src="./assets/js/style.js "></script>
+    <script src="./assets/js/slide.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

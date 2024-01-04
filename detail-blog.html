@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietkite</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="canonical" href="https://wowjs.uk/">
+
+</head>
+
+<body id="">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 item"></div>
+                        <div class="col-md-6 col-sm-12 item">
+                            <form action="/" method="get" method="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="s" placeholder="Tour du lịch, điểm đến...">
+                                    <input type="hidden" value="tours" name="post_type">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main">
+                <div class="container">
+                    <div class="row">
+                        <nav class="nav col-md-12">
+                            <div class="nav-header">
+                                <a href="/index.html" class="nav-brand">
+                                    <img src="https://vietkite.com.vn/wp-content/uploads/2020/04/Logo-VietKite.png" alt="">
+                                </a>
+                                <div class="nav-header-grbtn">
+                                    <button class="nav-toggle">
+                                        <span class="sr-only">Toggle menu</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <button class="nav-search" data-toggle="modal" data-target="#search">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                            <div class="nav-menu">
+                                <div class="menu-main">
+                                    <ul class="menu-list">
+                                        <li class="menu-item">
+                                            <a href="./index.html" class="menu-link">Trang chủ</a>
+                                        </li>
+                                        <li class="menu-item has-submenu">
+                                            <a href="javascript:;" class="menu-link">
+                                                Tour nước ngoài
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="submenu ">
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour châu á<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Cambodia - Myanmar</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Dubai Ấn Độ</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Đài Loan</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Hongkong - Trung Quốc</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Lào</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Nhật Bản</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Sin - Ma - Indo</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Thái Lan</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour châu âu<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Du lịch Anh</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Du lịch Nga</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Thổ Nhĩ Kỳ</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Liên tuyến Châu Âu</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Châu Mĩ-Úc-Phi<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Canada</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Du lịch Mĩ</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Du lịch Nam Phi</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Du lịch Úc</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour độc lạ<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tôn giáo</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tour kết nối</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tour khám phá</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tour lịch sử</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tour thiện nguyện</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour tiết kiệm<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Khuyến mãi</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">làm đẹp hộ chiếu</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item has-submenu">
+                                            <a href="javascript:;" class="menu-link">
+                                                Tour trong nước
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="submenu ">
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour Miền trung<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">1 ngày</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">2 ngày 1 đêm</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">3 ngày 2 đêm</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">4 ngày 3 đêm</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">5 ngày 4 đêm</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour Miền bắc<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Đông bắc</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tây bắc</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Đông tây bắc</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Miền tây côn đảo<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">2 ngày 1 đêm</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">3 ngày 2 đêm</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">4 ngày 3 đêm</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour yêu thích<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Nha trang - phú yên</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Đà lạt - daklak</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour hot<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Bí ẩn thiên nhiên</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Chuyến xe tình yêu</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="./tour.html" class="menu-link">Tết al 2024</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="./lkh.html" class="menu-link">Lịch khởi hành</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="" class="menu-link">Dịch vụ visa</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="./contact.html" class="menu-link">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="banner owl-carousel owl-theme" id="slider">
+                <a href="">
+                    <img src="./assets/images/banner1.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/banner2.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/banner3.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/banner4.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/banner5.png" alt="">
+                </a>
+            </section>
+
+            <section class="searchtour">
+                <div class="container">
+                    <div class="row mb-5 justify-content-center">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-4">
+                                    <div class="boxbanner wow fadeInLeft">
+                                        <a href="">
+                                            <div class="icon">
+                                                <img src="./assets/images/Vietkite-travel-2.png" alt="">
+                                            </div>
+                                            <h3>Du lịch</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-4">
+                                    <div class="boxbanner wow fadeInLeft box-color1">
+                                        <a href="">
+                                            <div class="icon">
+                                                <img src="./assets/images/Vietkite-travel.png" alt="">
+                                            </div>
+                                            <h3>Visa 24h</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-4">
+                                    <div class="boxbanner wow fadeInLeft">
+                                        <a href="">
+                                            <div class="icon">
+                                                <img src="./assets/images/Vietkite-travel-3.png" alt="">
+                                            </div>
+                                            <h3>Vé m.bay</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="searchtour-form">
+                        <form action="" class="form-search">
+                            <div class="row">
+                                <div class="form-item col-md5 col-lg-6 col-md-6">
+                                    <select name="" id="" class="form-control">
+                                        <option value="hn">Hà Nội</option>
+                                        <option value="hcm">Hồ Chí Minh</option>
+                                        <option value="dn">Đà Nẵng</option>
+                                        <option value="ct">Cần Thơ</option>
+                                    </select>
+                                </div>
+                                <div class="form-item col-md5 col-lg-6 col-md-6">
+                                    <input type="text" name="" id="" placeholder="Tên tour">
+                                </div>
+                                <div class="form-item col-md5 col-lg-4 col-md-4">
+                                    <input type="number" class="form-control number" name="" value="" placeholder="chọn giá từ" min="0" step="100000" onchange="return addCommas(this.value)">
+                                </div>
+                                <div class="form-item col-md5 col-lg-4 col-md-4">
+                                    <input type="number" class="form-control number" name="" value="" placeholder="chọn giá đến" min="0" step="100000" onchange="return addCommas(this.value)">
+                                </div>
+                                <div class="form-item col-md5 col-lg-4 col-md-4">
+                                    <button type="submit" class="btn btn-danger w-100">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                        Tìm
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="servicetype">
+                <div class="container">
+                    <div class="servicetype-slider owl-carousel owl-theme">
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype1.png" alt="">
+                                </div>
+                                <h3 class="item-title">Tặng 500k cho HS giỏi</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype2.png" alt="">
+                                </div>
+                                <h3 class="item-title">Tour lễ 2/9</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype3.png" alt="">
+                                </div>
+                                <h3 class="item-title">Tour riêng cho gia đình</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype4.png" alt="">
+                                </div>
+                                <h3 class="item-title">Châu Âu trọn gói</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype5.png" alt="">
+                                </div>
+                                <h3 class="item-title">Tour ghép từ nước ngoài</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype6.png" alt="">
+                                </div>
+                                <h3 class="item-title">Hè sôi động</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype7.png" alt="">
+                                </div>
+                                <h3 class="item-title">Tour tiết kiệm</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype8.png" alt="">
+                                </div>
+                                <h3 class="item-title">làm đẹp hộ chiếu</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype9.png" alt="">
+                                </div>
+                                <h3 class="item-title">Kiểm tra % visa</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="breadcrumbs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="alert alert-default">
+                                <p>
+                                    <span>
+                                        <a href="./index.html">Trang chủ</a>
+                                        »
+                                        <a href="">Tour trong nước</a>
+                                        » 
+                                        <a href="">Tour miên bắc</a>
+                                        » 
+                                        <a href="">Đông bắc</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="detail-blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-8">
+                            <h1 class="title-line">Du lịch Busan – Đắm chìm trong vẻ đẹp của thành phố biển lớn nhất Hàn Quốc</h1>
+
+                            <div class="content">
+                                <div class="sapo">
+                                    <p><span style="font-weight: 400">Nhắc đến Busan, chúng ta không thể nhắc đến những bãi biển đẹp, biển ở Busan còn được ví là “thiên đường du lịch biển” của du khách khi đến đây. Bạn muốn du lịch Hàn Quốc, bạn muốn thả mình vào những bãi biển ở Hàn Quốc, hãy nhanh chân lên cùng chúng tôi tìm hiểu và đặt cho mình một tour du lịch tới </span><b>thành phố biển Busan</b>
+                                        <span style="font-weight: 400"> nhé!</span>
+                                    </p>
+                                </div>
+                                <div class="toc-wrap">
+                                    <div class="toc-title">
+                                        <span class="icon"><i class="fa-regular fa-list-radio"></i></span>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <div id="toc"></div>
+                                </div>
+                                <article class="detail-blog-content">
+                                    <h2 style="text-align: center"><span id="Tong_quan_ve_thanh_pho_bien_Busan"><span style="font-size: 20px"><b>Tổng quan về thành phố biển Busan</b></span></span>
+                                    </h2>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Là thành phố lớn thứ hai sau Seoul. </span><span style="font-weight: 400">Busan được biết đến là thành phố rất nhộn nhịp bởi đây chính là một thành phố cảng lớn nhất Hàn Quốc.</span>
+                                        <span style="font-weight: 400"> Ngoài ra, Busan cũng nổi tiếng với những con đường uốn lượn, lãng mạn ngập lá vàng rơi hai bên đường. Khung cảnh tuyệt đẹp, bình yên và thơ mộng, bởi</span><b> thành phố Busan</b>
+                                        <span style="font-weight: 400"> được bao quanh và hình thành bởi sự góp mặt của cả núi và biển. </span>
+                                    </p>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Nằm ở mũi phía nam của bán đảo Triều Tiên. </span><span style="font-weight: 400">Thành phố cảng có vị trí tiếp giáp với eo biển Hàn Quốc và Nhật Bản, vì vậy mà </span><b>thành phố biển Busan</b>
+                                        <span style="font-weight: 400"> có lợi thế về trao đổi thương mại và du lịch. Hiện nay, Busan là thành phố cảng lớn nhất của Hàn Quốc và là 1 trong 9 cảng bận rộn nhất thế giới.</span>
+                                    </p>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Busan được biết đến với những bãi biển đẹp, hải sản ngon,&#8230;.Vì thế  Busan cũng được xem như thủ đô mùa hè của Hàn Quốc. Ngoài ra, Busan còn có các khu phố thương mại dành cho người nước ngoài ở Busan, hay còn được gọi là “phố Texas” nằm gần cảng Busan. Và các sự kiện như Liên hoan phim quốc tế nổi tiếng </span>
+                                        <span style="font-weight: 400">với sự có mặt của những nhân vật nổi tiếng Hàn Quốc</span><span style="font-weight: 400">,… </span></p>
+                                    <h2 style="text-align: center"><span id="Cac_dia_diem_vui_choi_o_thanh_pho_bien_Busan"><span style="font-size: 20px"><b>Các địa điểm vui chơi ở thành phố biển Busan</b></span></span>
+                                    </h2>
+                                    <h3 style="text-align: justify"><span id="Bai_bien_o_Busan"><span style="font-size: 20px"><b>Bãi biển ở Busan</b></span></span>
+                                    </h3>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Các bãi biển của Busan tự hào về sức hấp dẫn của riêng mình không chỉ vào mùa hè mà còn cả mùa xuân, mùa thu và mùa đông. Mỗi bãi biển, mang trong mình một vẻ đẹp, sắc thái riêng. Sau đây tôi sẽ giới thiệu cho các bạn về 5 bãi biển đáng trải nghiệm nhất ở </span><b>thành phố Busan</b>
+                                        <span style="font-weight: 400"> đó là: Bãi biển </span><span style="font-weight: 400">Haeundae, Gwangalli, Dadaepo, Songjeong và bãi biển Songdo. </span></p>
+                                    <h4 style="text-align: justify"><span id="Bai_bien_Haeundae"><span style="font-size: 20px"><b>Bãi biển Haeundae</b></span></span>
+                                    </h4>
+                                    <div id="attachment_4974" style="width: 710px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-4974" class="wp-image-4974" src="https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Haeundae-được-xem-là-bãi-biển-nổi-tiếng-đẹp-nhất-xứ-Hàn-600x400.jpg" alt="Bãi Biển Haeundae được Xem Là Bãi Biển Nổi Tiếng đẹp Nhất Xứ Hàn"
+                                            width="700" height="466" srcset="https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Haeundae-được-xem-là-bãi-biển-nổi-tiếng-đẹp-nhất-xứ-Hàn-600x400.jpg 600w, https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Haeundae-được-xem-là-bãi-biển-nổi-tiếng-đẹp-nhất-xứ-Hàn-390x260.jpg 390w, https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Haeundae-được-xem-là-bãi-biển-nổi-tiếng-đẹp-nhất-xứ-Hàn-220x147.jpg 220w, https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Haeundae-được-xem-là-bãi-biển-nổi-tiếng-đẹp-nhất-xứ-Hàn.jpg 640w"
+                                            sizes="(max-width: 700px) 100vw, 700px" />
+                                        <p id="caption-attachment-4974" class="wp-caption-text">Bãi Biển Haeundae được Xem Là Bãi Biển Nổi Tiếng đẹp Nhất Busan</p>
+                                    </div>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Là bãi biển được đánh giá là bãi biển đẹp nhất của Busan. Có chiều dài khoảng 1,8km và rộng 50m, có độ sâu trung bình của nước khoảng 1m, sóng không cao, chênh lệch giữa lúc lên và lúc xuống không quá lớn nên bãi biển này phù hợp với mọi lứa tuổi. Bãi biển Haeundae nổi tiếng là nơi có cảnh đẹp về đêm và là thánh địa của bộ môn thể thao lướt sóng.</span></p>
+                                    <h4 style="text-align: justify"><span id="Bai_bien_Songjeong_va_Gwangalli"><span style="font-size: 20px"><b>Bãi biển Songjeong và Gwangalli</b></span></span>
+                                    </h4>
+                                    <div id="attachment_4975" style="width: 710px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-4975" class="wp-image-4975" src="https://vietkite.com.vn/wp-content/uploads/2022/08/Được-xem-là-thánh-địa-của-bộ-môn-lướt-sóng-600x400.jpg" alt="Được xem là thánh địa của bộ môn lướt sóng"
+                                            width="700" height="394" srcset="https://vietkite.com.vn/wp-content/uploads/2022/08/Được-xem-là-thánh-địa-của-bộ-môn-lướt-sóng-768x432.jpg 768w, https://vietkite.com.vn/wp-content/uploads/2022/08/Được-xem-là-thánh-địa-của-bộ-môn-lướt-sóng.jpg 1200w"
+                                            sizes="(max-width: 700px) 100vw, 700px" />
+                                        <p id="caption-attachment-4975" class="wp-caption-text">Được xem là thánh địa của bộ môn lướt sóng</p>
+                                    </div>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Cũng biết đến là một trong những bãi biển tiêu biểu của Busan được mệnh danh là thánh địa của bộ môn lướt sóng. Bởi vùng nước ở đây cũng nông và có độ dốc thoải.</span></p>
+                                    <h4 style="text-align: justify"><span id="Bai_bien_Songdo"><span style="font-size: 20px"><b>Bãi biển Songdo</b></span></span>
+                                    </h4>
+                                    <div id="attachment_4976" style="width: 710px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-4976" class="wp-image-4976" src="https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Songdo-600x400.jpg" alt="Bãi Biển Songdo" width="700" height="468" srcset="https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Songdo-600x400.jpg 600w, https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Songdo-390x260.jpg 390w, https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Songdo-220x147.jpg 220w, https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Songdo-768x513.jpg 768w, https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Songdo.jpg 1000w"
+                                            sizes="(max-width: 700px) 100vw, 700px" />
+                                        <p id="caption-attachment-4976" class="wp-caption-text">Bãi biển Songdo</p>
+                                    </div>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Là bãi biển đầu tiên ở Hàn Quốc và có bầu không khí kỳ lạ, vì vậy nó được gọi là &#8216;Naples của phương Đông&#8217;. Vào ban ngày, bạn có thể thưởng thức khung cảnh tuyệt đẹp của bờ biển và vào ban đêm bạn có thể ngắm bãi biển với ánh sáng lung linh,huyền ảo tạo nên một bãi biển đẹp tuyệt vời. </span></p>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Đặc biệt, khi bạn đi cáp treo qua bãi biển Songdo, bạn có thể thưởng ngoạn vùng biển rộng mở và những vách đá hình thù kỳ lạ.  Và khi bạn xuống cáp treo, Công viên Bầu trời Songdo hiện ra, nơi có rất nhiều điểm tham quan theo chủ đề khác nhau như Dino Adventure, khủng long, Đài quan sát Sky Harbour,&#8230;&#8230;</span></p>
+                                    <h4 style="text-align: justify"><span id="Bai_bien_Dadaepo"><span style="font-size: 20px"><b>Bãi biển Dadaepo</b></span></span>
+                                    </h4>
+                                    <div id="attachment_4977" style="width: 710px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-4977" class="wp-image-4977" src="https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Dadaepo-là-một-địa-điểm-lí-tưởng-cho-việc-ngắm-hoàng-hôn-600x400.jpg" alt="Bãi Biển Dadaepo Là Một địa điểm Lí Tưởng Cho Việc Ngắm Hoàng Hôn"
+                                            width="700" height="411" srcset="https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Dadaepo-là-một-địa-điểm-lí-tưởng-cho-việc-ngắm-hoàng-hôn-768x451.jpg 768w, https://vietkite.com.vn/wp-content/uploads/2022/08/Bãi-biển-Dadaepo-là-một-địa-điểm-lí-tưởng-cho-việc-ngắm-hoàng-hôn.jpg 1200w"
+                                            sizes="(max-width: 700px) 100vw, 700px" />
+                                        <p id="caption-attachment-4977" class="wp-caption-text">Bãi Biển Dadaepo Là Một địa điểm Lí Tưởng Cho Việc Ngắm Hoàng Hôn</p>
+                                    </div>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Bãi biển có một nét quyến rũ độc đáo, nơi bạn có thể tận hưởng trọn vẹn cảnh đẹp thiên nhiên và hoàng hôn của Busan. Bãi biển được được tạo thành từ trầm tích của sông Nakdong nên diện tích bãi cát rộng, cảm giác bước chân lên cát đặc biệt mềm mại. </span></p>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Bên cạnh được chiêm ngưỡng và vui chơi tại các bãi biển đẹp ở Busan, bạn có thể thưởng thức nhiều món ăn ngon tại đây.</span></p>
+                                    <h3 style="text-align: justify"><span id="Cong_vien_Taejongdae"><span style="font-size: 20px"><b>Công viên Taejongdae</b></span></span>
+                                    </h3>
+                                    <div id="attachment_4978" style="width: 710px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-4978" class="wp-image-4978" src="https://vietkite.com.vn/wp-content/uploads/2022/08/du-lich-busan-600x400.jpg" alt="Viên ngọc xanh của Busan" width="700" height="485" srcset="https://vietkite.com.vn/wp-content/uploads/2022/08/du-lich-busan-768x532.jpg 768w, https://vietkite.com.vn/wp-content/uploads/2022/08/du-lich-busan.jpg 800w"
+                                            sizes="(max-width: 700px) 100vw, 700px" />
+                                        <p id="caption-attachment-4978" class="wp-caption-text">Viên ngọc xanh của Busan</p>
+                                    </div>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Công viên Taejongdae, </span><b>thành phố Busan </b><span style="font-weight: 400">nổi tiếng với những vách đá hùng vĩ hướng ra bờ biển cực nam của đảo Yeongdo Gu. Bên cạnh những vách đá đó là rừng thông với hơn 200 loài thực vật khác nhau tạo nên cảnh quan thiên nhiên vô cùng hùng vĩ. Đặc biệt, khi đến công viên, bạn còn có thể đứng lên ngọn hải đăng và ngắm toàn cảnh của hòn đảo Daema của Nhật cách đó khoảng 56km. Ngoài ra, nơi đây cũng là nơi hội tụ những món ăn truyền thống mang đậm hương vị của</span><b> thành phố biển Busan.</b></p>
+                                    <h3 style="text-align: justify"><span id="Khu_mua_sam_Nampodong"><span style="font-size: 20px"><b>Khu mua sắm Nampodong</b></span></span>
+                                    </h3>
+                                    <div id="attachment_4979" style="width: 710px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-4979" class="wp-image-4979" src="https://vietkite.com.vn/wp-content/uploads/2022/08/Thiên-đường-ẩm-thực-và-mua-sắm-của-Busan-600x400.jpg" alt="Thiên đường ẩm Thực Và Mua Sắm Của Busan"
+                                            width="700" height="461" srcset="https://vietkite.com.vn/wp-content/uploads/2022/08/Thiên-đường-ẩm-thực-và-mua-sắm-của-Busan-768x506.jpg 768w, https://vietkite.com.vn/wp-content/uploads/2022/08/Thiên-đường-ẩm-thực-và-mua-sắm-của-Busan.jpg 850w"
+                                            sizes="(max-width: 700px) 100vw, 700px" />
+                                        <p id="caption-attachment-4979" class="wp-caption-text">Thiên đường ẩm Thực Và Mua Sắm Của Busan</p>
+                                    </div>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Nampo-dong là khu mua sắm sầm uất, nằm ở quận Jung-gu, cách trung tâm </span><b>thành phố Busan</b><span style="font-weight: 400"> khoảng 7km. Đến đây, khách du lịch có thể tha hồ mua sắm áo quần, mỹ phẩm, thưởng thức những món ăn tại Nampodong này. Đặc biệt, khu mua sắm Nampodong còn có vô vàn những cửa hàng áo quần giá bình dân dành cho học sinh và sinh viên.</span></p>
+                                    <h3 style="text-align: justify"><span id="Nui_Geumjeong"><span style="font-size: 20px"><b>Núi Geumjeong</b></span></span>
+                                    </h3>
+                                    <div id="attachment_4980" style="width: 780px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-4980" class="wp-image-4980" src="https://vietkite.com.vn/wp-content/uploads/2022/08/Núi-Geumjeong.jpg" alt="Núi Geumjeong" width="770" height="532" />
+                                        <p id="caption-attachment-4980" class="wp-caption-text">Núi Geumjeong</p>
+                                    </div>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Núi Geumjeongsan nằm ở phía tây </span><b>thành phố Busan</b><span style="font-weight: 400"> – là địa điểm đi bộ yêu thích của người dân. Geumjeongsan còn có ngôi đền Beomeosa nổi tiếng nằm ở phía đông bắc của ngọn núi rất đáng chiêm ngưỡng.</span></p>
+                                    <h3 style="text-align: justify"><span id="Lang_van_hoa_Gamcheon"><span style="font-size: 20px"><b>Làng văn hóa Gamcheon</b></span></span>
+                                    </h3>
+                                    <div id="attachment_4972" style="width: 710px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-4972" class="wp-image-4972" src="https://vietkite.com.vn/wp-content/uploads/2022/08/Busan-1-600x400.jpg" alt="Màu săc rực rỡ của ngôi làng" width="700" height="394" srcset="https://vietkite.com.vn/wp-content/uploads/2022/08/Busan-1-768x432.jpg 768w, https://vietkite.com.vn/wp-content/uploads/2022/08/Busan-1-1536x865.jpg 1536w, https://vietkite.com.vn/wp-content/uploads/2022/08/Busan-1-2048x1153.jpg 2048w"
+                                            sizes="(max-width: 700px) 100vw, 700px" />
+                                        <p id="caption-attachment-4972" class="wp-caption-text">Màu săc rực rỡ của ngôi làng</p>
+                                    </div>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Làng văn hóa Gamcheon là nơi lưu giữ lịch sử của Busan.Sự độc đáo của ngôi làng được thể hiện qua những khu dân cư tập thể bậc thang được xếp một cách trật tự dọc theo chân núi. Nơi đây có rất nhiều quán cafe theo phong cách yên tĩnh, thư giãn và nhiều cửa hàng lưu niệm khi dạo quanh trong làng. </span></p>
+                                    <h3 style="text-align: justify"><span id="Dao_Dongbaek"><span style="font-size: 20px"><b>Đảo Dongbaek<img class="aligncenter wp-image-4981" src="https://vietkite.com.vn/wp-content/uploads/2022/08/Đảo-Dongbaek.jpg" alt="Đảo Dongbaek" width="700" height="467" srcset="https://vietkite.com.vn/wp-content/uploads/2022/08/Đảo-Dongbaek.jpg 600w, https://vietkite.com.vn/wp-content/uploads/2022/08/Đảo-Dongbaek-390x260.jpg 390w, https://vietkite.com.vn/wp-content/uploads/2022/08/Đảo-Dongbaek-220x147.jpg 220w" sizes="(max-width: 700px) 100vw, 700px" /></b></span></span>
+                                    </h3>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Đảo Dongbaek, có tên xuất phát từ cây hoa trà nhuộm đỏ toàn bộ hòn đảo, là một hòn đảo nằm ở cuối bãi biển cát trắng khi nhìn sang bên phải từ Bãi biển Haeundae Trên nền đá và Haesica ở phía bãi biển Haeundae, có một bức tượng </span>
+                                        <a href="http://busan.grandculture.net/"><span style="font-weight: 400">nàng tiên cá trên Dongbaekseom</span></a><span style="font-weight: 400"> với truyền thuyết về </span>
+                                        <a href="http://busan.grandculture.net/"><span style="font-weight: 400">Công chúa Hwang-ok, và có một lối đi dạo quanh Dongbaekseom ở Haeundae</span></a>
+                                        <span style="font-weight: 400">. Dọc theo đường đi, bạn còn có thể chiêm ngưỡng khung cảnh tuyệt đẹp của Biển và rừng, </span><a href="http://busan.grandculture.net/"><span style="font-weight: 400">Cầu Gwangan</span></a>
+                                        <span style="font-weight: 400">, </span>
+                                        <a href="http://busan.grandculture.net/"><span style="font-weight: 400">Đảo</span></a><span style="font-weight: 400"> Oryukdo, </span><a href="http://busan.grandculture.net/"><span style="font-weight: 400">Đèo Dalmaji</span></a>
+                                        <span style="font-weight: 400">,&#8230;..Ngoài ra, bạn còn có thể tham quan s</span>
+                                        <a href="http://busan.grandculture.net/"><span style="font-weight: 400">ân vận động Du thuyền Vịnh Suyeong</span></a><span style="font-weight: 400"> đã được lắp đặt trong Thế vận hội Olympic lần thứ 24 được tổ chức tại Seoul vào năm 1988 tại </span>
+                                        <a href="http://busan.grandculture.net/"><span style="font-weight: 400">Vịnh Suyeong ở</span></a><span style="font-weight: 400"> phía tây của hòn đảo.</span></p>
+                                    <h3 style="text-align: justify"><span id="Pho_ca_phe_Jeonpo"><span style="font-size: 20px"><b>Phố cà phê Jeonpo</b></span></span>
+                                    </h3>
+                                    <div id="attachment_4982" style="width: 710px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-4982" class="wp-image-4982" src="https://vietkite.com.vn/wp-content/uploads/2022/08/Phố-cà-phê-Jeonpo-600x400.jpg" alt="Phố Cà Phê Jeonpo" width="700" height="525" srcset="https://vietkite.com.vn/wp-content/uploads/2022/08/Phố-cà-phê-Jeonpo-768x576.jpg 768w, https://vietkite.com.vn/wp-content/uploads/2022/08/Phố-cà-phê-Jeonpo.jpg 850w"
+                                            sizes="(max-width: 700px) 100vw, 700px" />
+                                        <p id="caption-attachment-4982" class="wp-caption-text">Phố cà phê Jeonpo</p>
+                                    </div>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Là nơi đây tập trung hơn 30 quán cà phê khác nhau. Mỗi quán cà phê được thiết kế khác nhau và có phong cách, hương vị đặc trưng riêng. Bạn có thể ghé qua khu phố này để thưởng thức cà phê cũng như lên hình sống ảo cũng không tồi đâu nhé.</span></p>
+                                    <h2 style="text-align: center">
+                                        <span id="Tour_du_lich_thanh_pho_bien_Busan_uy_tin_gia_re_o_dau">
+                                            <span style="font-size: 20px"><b>Tour du lịch thành phố biển Busan uy tín, giá rẻ ở đâu?</b></span>
+                                        </span>
+                                    </h2>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Bạn đang có ý định đến</span><b> thành phố biển Busan </b><span style="font-weight: 400">nhưng không tìm được nơi cung cấp tour chất lượng? <a href="https://vietkite.com.vn/">Vietkite Travel</a> chính là giải pháp tuyệt vời ngay lúc này. </span>
+                                        <span style="font-weight: 400">Chúng tôi có </span><a href="https://vietkite.com.vn/cac-tour-nuoc-ngoai"><span style="font-weight: 400">lịch khởi hành</span></a><span style="font-weight: 400"> hàng tháng, chúng tôi sẽ thay bạn chuẩn bị phương tiện đi lại, nơi ăn ở, hành trình, điểm tham quan… Đồng thời đội ngũ hướng dẫn viên chuyên nghiệp sẽ giới thiệu những điểm đến thú vị để du khách có những trải nghiệm du lịch tuyệt vời nhất.</span></p>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Có thể nói </span><b>thành phố biển Busan</b><span style="font-weight: 400"> là nơi hội tủ những bãi biển đẹp nhất Hàn Quốc và các địa điểm tham quan thú vị khác. Chính vì thế, </span><b>thành phố Busan</b>
+                                        <span style="font-weight: 400"> trở thành một điểm đến nổi tiếng có sức hút lớn với nhiều du khách trên thế giới. Đến Busan bạn sẽ thấy một thành phố tươi đẹp, rực sáng với những chiếc cầu dài uốn lượn trong ánh đèn lung linh tuyệt đẹp.</span>
+                                    </p>
+                                    <p style="text-align: justify"><span style="font-weight: 400">Nhanh tay liên hệ ngay cho </span><span style="font-weight: 400">Vietkite Travel</span> <span style="font-weight: 400">☎ 0912.992.447 </span><span style="font-weight: 400">để có thể sở hữu </span>
+                                        <a href="https://vietkite.com.vn/nhom_tour/han-quoc.html"><b>tour tham quan thành phố biển Busan</b></a><span style="font-weight: 400"> siêu hời và uy tín cao nhé!</span></p>
+                                    <p style="text-align: justify">
+
+                                        <p class="red">Lượt Xem: 442</p>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="sidebar">
+                                <h3 class="title-box">Tin Tức</h3>
+                                <div class="sidebar-content">
+                                    <div class="item wow fadeInLeft" data-wow-delay=".5s">
+                                        <a href="./detail-blog.html" class="thumbnail pull-left mr-3">
+                                            <img src="./assets/images/du-ngoan-ba-be-1.png" alt="">
+                                        </a>
+                                        <a href="./detail-blog.html" class="title">
+                                            <h2>Du lịch Busan – Đắm chìm trong vẻ đẹp của thành phố biển lớn nhất Hàn Quốc</h2>
+                                        </a>
+                                    </div>
+                                    <div class="item wow fadeInLeft" data-wow-delay=".5s">
+                                        <a href="./detail-blog.html" class="thumbnail pull-left mr-3">
+                                            <img src="./assets/images/du-ngoan-ba-be-1.png" alt="">
+                                        </a>
+                                        <a href="./detail-blog.html" class="title">
+                                            <h2>Du lịch Busan – Đắm chìm trong vẻ đẹp của thành phố biển lớn nhất Hàn Quốc</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 hidden-xs mb-5">
+                        <img src="./assets/images/line-bot.png" class="img-responsive pic-line" alt="line">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-2 wow fadeInLeft">
+                        <h3 class="ft-title">Liên hệ</h3>
+                        <p>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+0914278879">0914278879</a>
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-envelope-open"></i>
+                            <a href="mailto:info@vietkite.com.vn">info@vietkite.com.vn</a>
+                        </p>
+                        <div class="">
+                            <img src="./assets/images/ft-line.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="pull-left">
+                                <img src="./assets/images/i-hotline.png" alt="">
+                            </div>
+                            <div class="pull-left ft-mg-hl">
+                                <div class="hl-num">
+                                    <a style="color:#ff002d" href="tel:0914278879">0914278879</a>
+                                </div>
+                                <div class="hl-hour">Từ 8:00 - 22:00</div>
+                                <div class="hl-hour" style="width:250px;line-height:20px;">
+                                    (Thứ Hai - Thứ Bảy hàng tuần,<br> Chủ Nhật liên hệ <br>Hotline 0914278879)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8 col-sm-12 mb-2 wow fadeInLeft">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-2 wow fadeInLeft">
+                                <h3 class="ft-title">Thông tin</h3>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                        <div class="menu-footer-container">
+                                            <ul class="list-info">
+                                                <li class="menu-item">
+                                                    <a href="">Tin tức du lịch</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="">Kinh nghiệm DL</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="">Giới thiệu về Vietkite</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                                        <div class="menu-footer-container">
+                                            <ul class="list-info">
+                                                <li class="menu-item">
+                                                    <a href="">Tuyển dụng</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="">Tâm sự</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <img src="./assets/images/ft-line.png" alt="">
+                                </div>
+                                <div class="menu-footer-container">
+                                    <ul class="list-info">
+                                        <li class="menu-item">
+                                            <a href="">Tổng hợp cảnh đẹp</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="">Du lịch visa uy tín</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="">Hướng dẫn xin visa</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-2 wow fadeInLeft">
+                                <h3 class="ft-title">NEWSLETTER</h3>
+                                <div class="newsletter position-relative mb-2">
+                                    <form action="">
+                                        <input type="text" class="form-control" placeholder="Email của bạn">
+                                        <div class="btn-f">
+                                            <button type="submit" class="bg-btn" style="border:none;">
+                                                <i class="fa fa-envelope"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <h3 class="ft-title">Tìm kiếm thông tin</h3>
+                                <div class="info-search position-relative mb-2">
+                                    <form action="">
+                                        <input type="text" class="form-control" placeholder="Tour du lịch, điểm đến...">
+                                        <div class="btn-f">
+                                            <button class="bg-btn" type="submit" style="border:none;">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <h3 class="ft-title">Chấp nhận thanh toán</h3>
+                                <div>
+                                    <img src="./assets/images/payment.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-12 col-sm-12 mb-2 wow fadeInLeft">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-3 col-sm-4">
+                                <h3 class="ft-title">Mạng xã hội</h3>
+                                <div class="mb-4">
+                                    <ul class="social-network social-circle">
+                                        <li class="">
+                                            <a href="" class="facebook">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="" class="instagram">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="" class="youtube">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-6 col-sm-4">
+                                <h3 class="ft-title">Chứng nhận</h3>
+                                <div class="mb-4">
+                                    <a href="">
+                                        <img src="./assets/images/bct.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="pos">
+                            <p class="text-center">Vietkite ® 2023. Code by <a target="_blank" href="">Netsa.vn</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <div id="search" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Tìm Kiếm" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form action="" method="post" role="search">
+                        <div class="input-group">
+                            <input type="text" name="s" class="form-control" placeholder="tìm kiếm...">
+                            <!-- <input type="hidden" name="post_type" value="product" id="search_param"> -->
+                            <span class="input-group-btn">
+                          <button class="btn btn-default" type="button"><span class="fa fa-search"></span></button>
+                            </span>
+                        </div>
+                        <!-- /input-group -->
+                    </form>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
+
+    <script src="./assets/js/style.js "></script>
+    <script src="./assets/js/slide.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietkite</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="canonical" href="https://wowjs.uk/">
+
+</head>
+
+<body id="">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 item"></div>
+                        <div class="col-md-6 col-sm-12 item">
+                            <form action="/" method="get" method="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="s" placeholder="Tour du lịch, điểm đến...">
+                                    <input type="hidden" value="tours" name="post_type">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main">
+                <div class="container">
+                    <div class="row">
+                        <nav class="nav col-md-12">
+                            <div class="nav-header">
+                                <a href="/index.html" class="nav-brand">
+                                    <img src="https://vietkite.com.vn/wp-content/uploads/2020/04/Logo-VietKite.png" alt="">
+                                </a>
+                                <div class="nav-header-grbtn">
+                                    <button class="nav-toggle">
+                                        <span class="sr-only">Toggle menu</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <button class="nav-search" data-toggle="modal" data-target="#search">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                            <div class="nav-menu">
+                                <div class="menu-main">
+                                    <ul class="menu-list">
+                                        <li class="menu-item">
+                                            <a href="./index.html" class="menu-link">Trang chủ</a>
+                                        </li>
+                                        <li class="menu-item has-submenu">
+                                            <a href="javascript:;" class="menu-link">
+                                                Tour nước ngoài
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="submenu ">
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour châu á<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Cambodia - Myanmar</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Dubai Ấn Độ</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Đài Loan</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Hongkong - Trung Quốc</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Lào</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Nhật Bản</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Sin - Ma - Indo</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Thái Lan</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour châu âu<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Du lịch Anh</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Du lịch Nga</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Thổ Nhĩ Kỳ</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Liên tuyến Châu Âu</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Châu Mĩ-Úc-Phi<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Canada</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Du lịch Mĩ</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Du lịch Nam Phi</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Du lịch Úc</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour độc lạ<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tôn giáo</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tour kết nối</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tour khám phá</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tour lịch sử</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tour thiện nguyện</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour tiết kiệm<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Khuyến mãi</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">làm đẹp hộ chiếu</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item has-submenu">
+                                            <a href="javascript:;" class="menu-link">
+                                                Tour trong nước
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="submenu ">
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour Miền trung<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">1 ngày</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">2 ngày 1 đêm</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">3 ngày 2 đêm</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">4 ngày 3 đêm</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">5 ngày 4 đêm</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour Miền bắc<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Đông bắc</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Tây bắc</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Đông tây bắc</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Miền tây côn đảo<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">2 ngày 1 đêm</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">3 ngày 2 đêm</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">4 ngày 3 đêm</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour yêu thích<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Nha trang - phú yên</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Đà lạt - daklak</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-submenu">
+                                                    <a href="javascript:;" class="menu-link">Tour hot<span class="caret"></span></a>
+                                                    <ul class="submenu">
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Bí ẩn thiên nhiên</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="./tour.html" class="menu-link">Chuyến xe tình yêu</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="./tour.html" class="menu-link">Tết al 2024</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="./lkh.html" class="menu-link">Lịch khởi hành</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="" class="menu-link">Dịch vụ visa</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="./contact.html" class="menu-link">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="banner owl-carousel owl-theme" id="slider">
+                <a href="">
+                    <img src="./assets/images/banner1.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/banner2.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/banner3.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/banner4.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/banner5.png" alt="">
+                </a>
+            </section>
+
+            <section class="searchtour">
+                <div class="container">
+                    <div class="row mb-5 justify-content-center">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-4">
+                                    <div class="boxbanner wow fadeInLeft">
+                                        <a href="">
+                                            <div class="icon">
+                                                <img src="./assets/images/Vietkite-travel-2.png" alt="">
+                                            </div>
+                                            <h3>Du lịch</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-4">
+                                    <div class="boxbanner wow fadeInLeft box-color1">
+                                        <a href="">
+                                            <div class="icon">
+                                                <img src="./assets/images/Vietkite-travel.png" alt="">
+                                            </div>
+                                            <h3>Visa 24h</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-4">
+                                    <div class="boxbanner wow fadeInLeft">
+                                        <a href="">
+                                            <div class="icon">
+                                                <img src="./assets/images/Vietkite-travel-3.png" alt="">
+                                            </div>
+                                            <h3>Vé m.bay</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="searchtour-form">
+                        <form action="" class="form-search">
+                            <div class="row">
+                                <div class="form-item col-md5 col-lg-6 col-md-6">
+                                    <select name="" id="" class="form-control">
+                                        <option value="hn">Hà Nội</option>
+                                        <option value="hcm">Hồ Chí Minh</option>
+                                        <option value="dn">Đà Nẵng</option>
+                                        <option value="ct">Cần Thơ</option>
+                                    </select>
+                                </div>
+                                <div class="form-item col-md5 col-lg-6 col-md-6">
+                                    <input type="text" name="" id="" placeholder="Tên tour">
+                                </div>
+                                <div class="form-item col-md5 col-lg-4 col-md-4">
+                                    <input type="number" class="form-control number" name="" value="" placeholder="chọn giá từ" min="0" step="100000" onchange="return addCommas(this.value)">
+                                </div>
+                                <div class="form-item col-md5 col-lg-4 col-md-4">
+                                    <input type="number" class="form-control number" name="" value="" placeholder="chọn giá đến" min="0" step="100000" onchange="return addCommas(this.value)">
+                                </div>
+                                <div class="form-item col-md5 col-lg-4 col-md-4">
+                                    <button type="submit" class="btn btn-danger w-100">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                        Tìm
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="servicetype">
+                <div class="container">
+                    <div class="servicetype-slider owl-carousel owl-theme">
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype1.png" alt="">
+                                </div>
+                                <h3 class="item-title">Tặng 500k cho HS giỏi</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype2.png" alt="">
+                                </div>
+                                <h3 class="item-title">Tour lễ 2/9</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype3.png" alt="">
+                                </div>
+                                <h3 class="item-title">Tour riêng cho gia đình</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype4.png" alt="">
+                                </div>
+                                <h3 class="item-title">Châu Âu trọn gói</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype5.png" alt="">
+                                </div>
+                                <h3 class="item-title">Tour ghép từ nước ngoài</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype6.png" alt="">
+                                </div>
+                                <h3 class="item-title">Hè sôi động</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype7.png" alt="">
+                                </div>
+                                <h3 class="item-title">Tour tiết kiệm</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype8.png" alt="">
+                                </div>
+                                <h3 class="item-title">làm đẹp hộ chiếu</h3>
+                            </a>
+                        </div>
+                        <div class="servicetype-slider-item">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="./assets/images/servicetype9.png" alt="">
+                                </div>
+                                <h3 class="item-title">Kiểm tra % visa</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tours">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="title-home">
+                                <a href="">
+                                    <h3>Lào</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row2">
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 text-center mb-5">
+                            <a class="btn btn-danger btn-square btn-inline" href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tours">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="title-home">
+                                <a href="">
+                                    <h3>Tour nước ngoài</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row2">
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 text-center mb-5">
+                            <a class="btn btn-danger btn-square btn-inline" href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tours">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="title-home">
+                                <a href="">
+                                    <h3>Tour trong nước</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row2">
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 text-center mb-5">
+                            <a class="btn btn-danger btn-square btn-inline" href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tours">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="title-home">
+                                <a href="">
+                                    <h3>Bí ẩn thiên nhiên</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row2">
+                        <div class="col-md-6 col-sm-4">
+                            <div class="tours-item lg wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="tours-item sm wow fadeInLeft">
+                                <div class="tours-item-wrap">
+                                    <div class="tours-item-thumbnail">
+                                        <a href="./detail-tour.html">
+                                            <img src="./assets/images/tours1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tours-item-content">
+                                        <h2 class="title-tour">
+                                            <a href="./detail-tour.html">(M2,M3 Tết) LÀO – ĐÔNG BẮC THÁI</a>
+                                        </h2>
+                                        <div class="meta-tour">
+                                            <p>
+                                                <i class="fa-solid fa-calendar-days"></i> 4N3Đ
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-car"></i> 35 chỗ
+                                            </p>
+                                        </div>
+                                        <div class="price-tour">
+                                            <i class="fa-solid fa-money-bill"></i>
+                                            <span class="old-price">9,100,000đ</span>
+                                            <span class="new-price">8,100,000đ</span>
+                                        </div>
+                                    </div>
+                                    <span class="promotion">
+                                        <b>-11%</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 text-center mb-5">
+                            <a class="btn btn-danger btn-square btn-inline" href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="toursfv">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="title-home">
+                                <a href="">
+                                    <h3>Tour yêu thích</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-4 col-xs-6 wow fadeInLeft" data-wow-delay=".3s">
+                            <div class="toursfv-item">
+                                <a href="./tour.html">
+                                    <img src="./assets/images/tour-fv.jpg" alt="">
+                                    <h3 class="toursfv-item-title">Vinh hạ long</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6 wow fadeInLeft" data-wow-delay=".6s">
+                            <div class="toursfv-item">
+                                <a href="./tour.html">
+                                    <img src="./assets/images/tour-fv.jpg" alt="">
+                                    <h3 class="toursfv-item-title">Vinh hạ long</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6 wow fadeInLeft" data-wow-delay=".9s">
+                            <div class="toursfv-item">
+                                <a href="./tour.html">
+                                    <img src="./assets/images/tour-fv.jpg" alt="">
+                                    <h3 class="toursfv-item-title">Vinh hạ long</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6 wow fadeInLeft" data-wow-delay="1.2s">
+                            <div class="toursfv-item">
+                                <a href="./tour.html">
+                                    <img src="./assets/images/tour-fv.jpg" alt="">
+                                    <h3 class="toursfv-item-title">Vinh hạ long</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="line"></div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-md5 col-xs-6 wow fadeInLeft" data-wow-delay=".3s">
+                            <div class="toursfv-item">
+                                <a href="./tour.html">
+                                    <img src="./assets/images/tour-fv.jpg" alt="">
+                                    <h3 class="toursfv-item-title">Vinh hạ long</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-md5 col-xs-6 wow fadeInLeft" data-wow-delay=".6s">
+                            <div class="toursfv-item">
+                                <a href="./tour.html">
+                                    <img src="./assets/images/tour-fv.jpg" alt="">
+                                    <h3 class="toursfv-item-title">Vinh hạ long</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-md5 col-xs-6 wow fadeInLeft" data-wow-delay=".9s">
+                            <div class="toursfv-item">
+                                <a href="./tour.html">
+                                    <img src="./assets/images/tour-fv.jpg" alt="">
+                                    <h3 class="toursfv-item-title">Vinh hạ long</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-md5 col-xs-6 wow fadeInLeft" data-wow-delay="1.2s">
+                            <div class="toursfv-item">
+                                <a href="./tour.html">
+                                    <img src="./assets/images/tour-fv.jpg" alt="">
+                                    <h3 class="toursfv-item-title">Vinh hạ long</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-md5 col-xs-6 wow fadeInLeft" data-wow-delay="1.5s">
+                            <div class="toursfv-item">
+                                <a href="./tour.html">
+                                    <img src="./assets/images/tour-fv.jpg" alt="">
+                                    <h3 class="toursfv-item-title">Vinh hạ long</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="feedback">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="title-home">
+                                <a href="">
+                                    <h3>Ý kiến khách hàng</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="line-quote">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 wow fadeInLeft">
+                            <div class="feedback-item">
+                                <h4 class="feedback-item-title">Ý kiến khách hàng Phạm Thị Hồng</h4>
+                                <div class="line sm"></div>
+                                <div>
+                                    <i class="fa fa-calendar"></i> 23/04/2020
+                                </div>
+                                <a class="btn btn-danger btn-square btnarrow" href="">Xem thêm</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 wow fadeInLeft">
+                            <div class="feedback-item">
+                                <h4 class="feedback-item-title">Ý kiến khách hàng Phạm Thị Hồng</h4>
+                                <div class="line sm"></div>
+                                <div>
+                                    <i class="fa fa-calendar"></i> 23/04/2020
+                                </div>
+                                <a class="btn btn-danger btn-square btnarrow" href="">Xem thêm</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 wow fadeInLeft">
+                            <div class="feedback-item">
+                                <h4 class="feedback-item-title">Ý kiến khách hàng Phạm Thị Hồng</h4>
+                                <div class="line sm"></div>
+                                <div>
+                                    <i class="fa fa-calendar"></i> 23/04/2020
+                                </div>
+                                <a class="btn btn-danger btn-square btnarrow" href="">Xem thêm</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="line-quote">
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="whychoose">
+                <div class="frame-why">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-3 col-md-4 hidden-xs">
+                                <div class="bg-why">
+                                    <img src="./assets/images/bg-why.png" alt="" class="pic-why">
+                                    <div class="pos-title">
+                                        <h2 class="pos-title-wrap">
+                                            <span class="pos-title1">Vì sao chọn</span><br>
+                                            <span class="pos-title2">vietkite.com.vn?</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-8 col-lg-9 col-md-8 col-xs-12">
+                                <div class="row">
+                                    <div class="hidden-lg hidden-md hidden-sm col-xs-12 mb-4">
+                                        <h2 class="pos-title-wrap">
+                                            <span class="pos-title1">Vì sao chọn</span><br>
+                                            <span class="pos-title2">vietkite.com.vn?</span>
+                                        </h2>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft item">
+                                        <div class="item-wrap">
+                                            <div class="item-num">1.</div>
+                                            <div class="item-name">Mạng bán tour</div>
+                                            <div class="item-line">---------------------------</div>
+                                            <div class="item-des">
+                                                Số 1 tại Việt Nam<br>Ứng dụng công nghệ mới nhất
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft item">
+                                        <div class="item-wrap">
+                                            <div class="item-num">2.</div>
+                                            <div class="item-name">Mạng bán tour</div>
+                                            <div class="item-line">---------------------------</div>
+                                            <div class="item-des">
+                                                Số 1 tại Việt Nam<br>Ứng dụng công nghệ mới nhất
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft item">
+                                        <div class="item-wrap">
+                                            <div class="item-num">3.</div>
+                                            <div class="item-name">Mạng bán tour</div>
+                                            <div class="item-line">---------------------------</div>
+                                            <div class="item-des">
+                                                Số 1 tại Việt Nam<br>Ứng dụng công nghệ mới nhất
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft item">
+                                        <div class="item-wrap">
+                                            <div class="item-num">4.</div>
+                                            <div class="item-name">Mạng bán tour</div>
+                                            <div class="item-line">---------------------------</div>
+                                            <div class="item-des">
+                                                Số 1 tại Việt Nam<br>Ứng dụng công nghệ mới nhất
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft item">
+                                        <div class="item-wrap">
+                                            <div class="item-num">5.</div>
+                                            <div class="item-name">Mạng bán tour</div>
+                                            <div class="item-line">---------------------------</div>
+                                            <div class="item-des">
+                                                Số 1 tại Việt Nam<br>Ứng dụng công nghệ mới nhất
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft item">
+                                        <div class="item-wrap">
+                                            <div class="item-num">6.</div>
+                                            <div class="item-name">Mạng bán tour</div>
+                                            <div class="item-line">---------------------------</div>
+                                            <div class="item-des">
+                                                Số 1 tại Việt Nam<br>Ứng dụng công nghệ mới nhất
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 hidden-xs mb-5">
+                        <img src="./assets/images/line-bot.png" class="img-responsive pic-line" alt="line">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-2 wow fadeInLeft">
+                        <h3 class="ft-title">Liên hệ</h3>
+                        <p>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+0914278879">0914278879</a>
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-envelope-open"></i>
+                            <a href="mailto:info@vietkite.com.vn">info@vietkite.com.vn</a>
+                        </p>
+                        <div class="">
+                            <img src="./assets/images/ft-line.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="pull-left">
+                                <img src="./assets/images/i-hotline.png" alt="">
+                            </div>
+                            <div class="pull-left ft-mg-hl">
+                                <div class="hl-num">
+                                    <a style="color:#ff002d" href="tel:0914278879">0914278879</a>
+                                </div>
+                                <div class="hl-hour">Từ 8:00 - 22:00</div>
+                                <div class="hl-hour" style="width:250px;line-height:20px;">
+                                    (Thứ Hai - Thứ Bảy hàng tuần,<br> Chủ Nhật liên hệ <br>Hotline 0914278879)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8 col-sm-12 mb-2 wow fadeInLeft">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-2 wow fadeInLeft">
+                                <h3 class="ft-title">Thông tin</h3>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                        <div class="menu-footer-container">
+                                            <ul class="list-info">
+                                                <li class="menu-item">
+                                                    <a href="">Tin tức du lịch</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="">Kinh nghiệm DL</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="">Giới thiệu về Vietkite</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                                        <div class="menu-footer-container">
+                                            <ul class="list-info">
+                                                <li class="menu-item">
+                                                    <a href="">Tuyển dụng</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="">Tâm sự</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <img src="./assets/images/ft-line.png" alt="">
+                                </div>
+                                <div class="menu-footer-container">
+                                    <ul class="list-info">
+                                        <li class="menu-item">
+                                            <a href="">Tổng hợp cảnh đẹp</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="">Du lịch visa uy tín</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="">Hướng dẫn xin visa</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 mb-2 wow fadeInLeft">
+                                <h3 class="ft-title">NEWSLETTER</h3>
+                                <div class="newsletter position-relative mb-2">
+                                    <form action="">
+                                        <input type="text" class="form-control" placeholder="Email của bạn">
+                                        <div class="btn-f">
+                                            <button type="submit" class="bg-btn" style="border:none;">
+                                                <i class="fa fa-envelope"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <h3 class="ft-title">Tìm kiếm thông tin</h3>
+                                <div class="info-search position-relative mb-2">
+                                    <form action="">
+                                        <input type="text" class="form-control" placeholder="Tour du lịch, điểm đến...">
+                                        <div class="btn-f">
+                                            <button class="bg-btn" type="submit" style="border:none;">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <h3 class="ft-title">Chấp nhận thanh toán</h3>
+                                <div>
+                                    <img src="./assets/images/payment.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-12 col-sm-12 mb-2 wow fadeInLeft">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-3 col-sm-4">
+                                <h3 class="ft-title">Mạng xã hội</h3>
+                                <div class="mb-4">
+                                    <ul class="social-network social-circle">
+                                        <li class="">
+                                            <a href="" class="facebook">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="" class="instagram">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="" class="youtube">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-6 col-sm-4">
+                                <h3 class="ft-title">Chứng nhận</h3>
+                                <div class="mb-4">
+                                    <a href="">
+                                        <img src="./assets/images/bct.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="pos">
+                            <p class="text-center">Vietkite ® 2023. Code by <a target="_blank" href="">Netsa.vn</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <div id="search" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Tìm Kiếm" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form action="" method="post" role="search">
+                        <div class="input-group">
+                            <input type="text" name="s" class="form-control" placeholder="tìm kiếm...">
+                            <!-- <input type="hidden" name="post_type" value="product" id="search_param"> -->
+                            <span class="input-group-btn">
+                          <button class="btn btn-default" type="button"><span class="fa fa-search"></span></button>
+                            </span>
+                        </div>
+                        <!-- /input-group -->
+                    </form>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
+
+    <script src="./assets/js/style.js "></script>
+    <script src="./assets/js/slide.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

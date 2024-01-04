@@ -1,0 +1,99 @@
+.footer {
+    background: url('../../assets/images/bg-footer.png') no-repeat center bottom;
+    position: relative;
+    img.pic-line {
+        display: table;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .ft-title {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 15px;
+        color: #ff002d;
+    }
+    .ft-mg-hl,
+    .ft-mg-ct {
+        margin-left: 10px;
+    }
+    a {
+        color: #000;
+    }
+    .hl-num {
+        font-weight: bold;
+        font-size: 20px;
+        color: #ff4e53;
+        margin-bottom: 8px;
+    }
+    .hl-hour {
+        font-size: 13px;
+        color: #212121;
+    }
+    .newsletter,
+    .info-search {
+        .form-control {
+            border-radius: 0!important;
+            height: 40px;
+        }
+        .btn-f {
+            position: absolute;
+            top: 0;
+            right: 0;
+            .bg-btn {
+                background: #ff425b;
+                padding: 10px;
+                height: 40px;
+                i {
+                    color: #fff;
+                    padding-top: 3px;
+                }
+            }
+        }
+    }
+    .pos {
+        padding: 20px 0;
+    }
+}
+
+.pull-left {
+    float: left;
+}
+
+ul.social-network {
+    list-style: none;
+    margin-left: 0 !important;
+    padding: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+    li {
+        display: inline-block;
+        margin: 0 5px;
+        a {
+            display: inline-block;
+            position: relative;
+            margin: 0 auto 0 auto;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            text-align: center;
+            width: 30px;
+            height: 30px;
+            font-size: 17px;
+            i {
+                margin: 0;
+                line-height: 30px;
+                text-align: center;
+                color: #fff;
+            }
+            &.instagram {
+                background-color: #b3378f;
+            }
+            &.facebook {
+                background-color: #3B5998;
+            }
+            &.youtube {
+                background-color: #BD3518;
+            }
+        }
+    }
+}
